@@ -1,0 +1,112 @@
+.split {
+    background-color: aquamarine;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 77%;
+    margin-left: 12%;
+}
+input{
+    height: 50px;
+    width: 250px;
+    margin-right: 25px;
+}
+textarea{
+    width: 100%;
+    margin-left: 23%;
+    height:300px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.left {
+    background-color: slategrey;
+    width: 23%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.right {
+    position: absolute;
+    right: 0px; 
+    top: 0px;
+    left:23%;
+    width: 77%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+#demo::-webkit-scrollbar {
+    display: none;
+    /* 隐藏滚动条*/
+    
+}
+@keyframes Title{
+  0% {margin-left: -100px; margin-top: 60px;}
+  25% {margin-left: 80px;margin-top: -50px; }
+  50% {margin-left: 250px; margin-top: 60px;}
+  75%  {margin-left: 80px; margin-top:250px;}
+  100%{margin-left: -100px; margin-top: 60px;}
+}
+
+.pp {
+    color: white;
+    /* margin-left: 40px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,30px;
+    animation-name: Title;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+}
+/* @keyframes rotated{
+    0% {transform: rotate(0deg);transform-origin: 40%;}
+    50% {transform:rotate(180deg);transform-origin: 40%;}
+    100%{transform: rotate(360deg);transform-origin: 40%;}
+}
+.pp:hover{
+    animation: rotated;
+    animation-duration: 5s;
+} */
+.name{
+    color: white;
+    margin-left: 40px;
+    font:'Arial Narrow Bold';
+}
+
+a:link,
+a:visited {
+    display: inline-block;
+    padding: 14px 25px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+div a:hover {
+    color: black;
+    background-color: silver;
+    width: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,white;
+}
+
+
+div a {
+    position: relative;
+    left: 15%;
+    margin-top: 20px;
+}

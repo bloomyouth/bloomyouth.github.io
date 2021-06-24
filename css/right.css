@@ -1,0 +1,68 @@
+.aboutme-content {
+    margin-top: 50px;
+    margin-left: -120px;
+    font-size: 15px;
+    color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 97%;
+}
+.myhobby-content{
+    margin-top: 20px;
+    margin-left: -120px;
+    font-size: 15px;
+    color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 97%;
+
+}
+.contact-content{
+    margin-top: 20px;
+    margin-left: -120px;
+    font-size: 15px;
+    color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 97%;
+
+}
+
+.welcome {
+    background: url(../img/b2.jpg) no-repeat;
+    height: 85%;
+    font-size: 40px;
+    color: black;
+    padding-top: 150px;
+    padding-left: 23%;
+    width: 78%;
+}
+
+.aboutme {
+    height: 100%;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding-left: 23%;
+    padding-top: 10px;
+    width: 77%;
+
+}
+
+.myhobby {
+    height: 100%;
+    font-size: 18px;
+    font-style: initial;
+    color: black;
+    padding-left: 23%;
+    padding-top: 10px;
+    width: 77%;
+
+}
+.contact{
+    height: 100%;
+    font-size: 18px;
+    font-style: initial;
+    color: black;
+    padding-left: 23%;
+    padding-top: 10px;
+    width: 77%;
+
+}
